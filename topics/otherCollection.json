@@ -1,0 +1,15 @@
+[
+	{
+		"topic": "git",
+		"features": [
+			"git-stash-stage"
+		]
+	},
+	{
+		"topic": "sql-server",
+		"features": [
+			"sp_help",
+			"linq"
+		]
+	}
+]

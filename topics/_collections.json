@@ -1,0 +1,17 @@
+[
+	{
+		"topic": "git",
+		"features": [
+			"git-stash-stage"
+		]
+	},
+	{
+		"topic": "sql-server",
+		"features": [
+			"exception-handling",
+			"sp_help",
+			"fileStream-data",
+			"linq"
+		]
+	}
+]

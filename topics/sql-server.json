@@ -1,0 +1,33 @@
+{
+	"topic": "sql-server",
+	"versions": [
+		"v09-sql-server-2005",
+		"v10-sql-server-2008"
+	],
+	"features": [
+		{
+			"name": "exception-handling",
+			"version": "v09-sql-server-2005",
+			"ext": ".md",
+			"content": "# Exception Handling\r\n\r\nSQL Server 2005 modernizes error handling with the addition of the TRY/CATCH command blocks.\r\n\r\n[Source](https://www.codemag.com/article/0501041/SQL-Server-2005-T-SQL-Enhancements#:~:text=Microsoft%20has%20introduced%20a%20number,CATCH%20block%2C%20and%20ranking%20functions.)"
+		},
+		{
+			"name": "sp_help",
+			"version": "v09-sql-server-2005",
+			"ext": ".md",
+			"content": "How can I run sp_help on temp tables?\r\n\r\nEXEC TempDB..SP_HELP #temp_table;"
+		},
+		{
+			"name": "fileStream-data",
+			"version": "v10-sql-server-2008",
+			"ext": ".md",
+			"content": "# File Stream data\r\n\r\nThe new FileStream object allows large binary objects (LOBs) to be stored in the file system. The system maintains links between the database object and the file system object, insuring they have transactional consistency similar to a native database object yet providing the performance of native file system storage.\r\n\r\n[Source](https://www.itprotoday.com/new-features-sql-server-2008)"
+		},
+		{
+			"name": "linq",
+			"version": "v10-sql-server-2008",
+			"ext": ".md",
+			"content": "Supports linq now.\r\n\r\nhttps://www.quikieapps.com/blog/ecmascript/   "
+		}
+	]
+}
